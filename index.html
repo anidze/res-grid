@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="asite-nav grid">
+      <h1>Cosmo Junkie</h1>
+      <ul>
+        <li><a href="#portfolio"></a>Portfolio</li>
+        <li><a href="#skills"></a>Skills</li>
+        <li><a href="#contact"></a>Contact</li>
+      </ul>
+    </nav>
+    <section id="welcome" class="grid">
+      <div class="welcome-text">
+        <h2>
+          Space Enthusiastic <br />
+          Javascript Developer
+        </h2>
+        <p class="leading">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
+          amet ullam itaque, porro laudantium culpa suscipit maxime deserunt
+          illo laborum animi expedita earum?
+        </p>
+        <a href="#portfolio" class="button">View my work</a>
+        <div class="welcome-img">
+          <img src="assets/download.jfif" alt="galaxy" />
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <h3>Some of my projects</h3>
+      <div class="projects grid">
+        <a href=""
+          ><img src="assets/project-1.jfif" class="projectImg" alt="project1" />
+          <h4>Sun project</h4></a
+        >
+        <a href="">
+          <img src="assets/project-2.jfif" class="projectImg" alt="project2" />
+          <h4>Moon project</h4></a
+        >
+        <a href="">
+          <img src="assets/project-2.webp" class="projectImg" alt="project3" />
+          <h4>Venera project</h4></a
+        >
+      </div>
+    </section>
+    <section id="skills">
+      <h3>Things i can do</h3>
+      <ul class="grid">
+        <li>
+          <img src="assets/skill1.png" class="projectImg" alt="myskills" />
+          <h4>HTML</h4>
+        </li>
+        <li>
+          <img src="assets/skill2.png" class="projectImg" alt="myskills" />
+          <h4>CSS</h4>
+        </li>
+        <li>
+          <img src="assets/jsskill.png" class="projectImg" alt="myskills" />
+          <h4>JAVASCRIPT</h4>
+        </li>
+        <li>
+          <img src="assets/skill3.png" class="projectImg" alt="myskills" />
+          <h4>REACT</h4>
+        </li>
+        <li>
+          <img src="assets/skill5.png" class="projectImg" alt="myskills" />
+          <h4>WORDPRESS</h4>
+        </li>
+        <li>
+          <img src="assets/skill6.png" class="projectImg" alt="myskills" />
+          <h4>PHOTOSHOP</h4>
+        </li>
+        <li>
+          <img src="assets/skill7.png" class="projectImg" alt="myskills" />
+          <h4>ILLUSTRATOR</h4>
+        </li>
+        <li>
+          <img src="assets/skill8.png" class="projectImg" alt="myskills" />
+          <h4>FIRGMA</h4>
+        </li>
+        <li>
+          <img src="assets/skill9.png" class="projectImg" alt="myskills" />
+          <h4>PHP</h4>
+        </li>
+        <li>
+          <img src="assets/skill10.png" class="projectImg" alt="myskills" />
+          <h4>NODE JS</h4>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h3>Get ib touch</h3>
+      <p class="leading">Lorem, ipsum dolor.</p>
+      <form>
+        <input type="text" placeholder="NAME" />
+        <input type="email" placeholder="NAME" />
+        <textarea placeholder="YOUR MESSAGE"></textarea>
+        <button class="button">Send flare</button>
+      </form>
+    </section>
+    <footer>
+      <div class="grid"><p class="copyrigth">Copyright 2025 MINE</p></div>
+      <ul class="cosials">
+        <li>
+          <a href=""><img src="assets/icon1.png" class="projectImg" /></a>
+        </li>
+        <li>
+          <a href=""><img src="assets/icon2.png" class="projectImg" /></a>
+        </li>
+        <li>
+          <a href=""><img src="assets/icon3.png" class="projectImg" /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Create Acount</h2>
+        <form action="" class="forms" id="form">
+          <div class="form-control">
+            <label>Username</label>
+            <input type="text" placeholder="florinpp17" id="username" />
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-exclamation"></i>
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label>Email</label>
+            <input
+              type="email"
+              placeholder="helloflorinpop@pop.com"
+              id="email"
+            />
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-exclamation"></i>
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label>Pasword</label>
+            <input type="password" placeholder="Password" id="password" />
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-exclamation"></i>
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label>Pasword check</label>
+            <input type="password" placeholder="Password two" id="password2" />
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-exclamation"></i>
+            <small>Error message</small>
+          </div>
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html> -->
